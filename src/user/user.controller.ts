@@ -10,8 +10,8 @@ import {
 } from '@nestjs/common';
 import { Request } from 'express';
 import { Logger } from '@nestjs/common';
-import { CreateCatDto } from 'src/dto';
-import { UpdateCatDto } from 'src/dto/user/update-cat.dto';
+import { CreateCatDto } from 'dto';
+import { UpdateCatDto } from 'dto/user/update-cat.dto';
 import { ConfigService } from '@nestjs/config';
 
 @Controller('cats')
